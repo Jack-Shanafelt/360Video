@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
-    [SerializeField] public string sceneTwo;
+    [SerializeField] public string VideoExperience;
     // Start is called before the first frame update
     public void SceneChanger(){
-        SceneManager.LoadScene(sceneTwo);
+        SceneManager.LoadScene(VideoExperience);
     }
 
 }
