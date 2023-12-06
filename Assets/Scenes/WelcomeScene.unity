@@ -1182,7 +1182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c563cde8a9e4d94aacd894dba740d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VideoExperience: VideoExperience
+  scene: VideoExperience
 --- !u!4 &457617889
 Transform:
   m_ObjectHideFlags: 0
@@ -1871,7 +1871,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 457617888}
+      - m_Target: {fileID: 842885587}
         m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
         m_MethodName: SceneChanger
         m_Mode: 1
@@ -1965,6 +1965,51 @@ Transform:
   - {fileID: 1962705646}
   - {fileID: 336306784}
   m_Father: {fileID: 491159646}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &842885586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 842885588}
+  - component: {fileID: 842885587}
+  m_Layer: 0
+  m_Name: ChangerTwo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &842885587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842885586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c563cde8a9e4d94aacd894dba740d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: AdviceScene
+--- !u!4 &842885588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842885586}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.35030317, y: 1.7919354, z: 1.2000527}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &848907277
 GameObject:
@@ -3255,7 +3300,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1727455721}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 89ec43c410b026349a962b9f090d830d, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: af476a6cb63b70c449cf6b39d3ccb6a4, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3764,3 +3809,4 @@ SceneRoots:
   - {fileID: 2065899282}
   - {fileID: 1538176555}
   - {fileID: 1184985440}
+  - {fileID: 842885588}
