@@ -12,11 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/BasicScene.unity
     guid: 4e9fef26e6adb88479ad1b9834a32d94
   - enabled: 1
+    path: Assets/Scenes/WelcomeScene.unity
+    guid: d3f4d9b7b6f29a0429eaa575d0cce395
+  - enabled: 1
     path: Assets/Scenes/VideoExperience.unity
     guid: eec9ccdb4cc32994e8702dfebf4d48ed
   - enabled: 1
-    path: Assets/Scenes/WelcomeScene.unity
-    guid: d3f4d9b7b6f29a0429eaa575d0cce395
+    path: Assets/Scenes/AdviceScene.unity
+    guid: d0eb66d6e70778a43a019443180050ce
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: e18a0195217a3f647a4440f799254785
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
